@@ -1,0 +1,27 @@
+*, body {
+    background-color: #E6E1C9;
+}
+
+#nav {
+    color: black;
+    text-transform: uppercase;
+    padding: 1.5rem 0rem 0rem 1.5rem;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+}
+
+#nav-left {
+    font-weight: 700;
+    font-size: 1.75rem;
+    letter-spacing: -2px;
+}
+
+#nav-right > .nav-link {
+    font-size: .75rem;
+    font-weight: 500;
+    padding: 0rem 5rem 0rem 5rem;
+    letter-spacing: 4px;
+}
