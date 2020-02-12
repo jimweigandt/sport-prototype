@@ -1,11 +1,13 @@
 *, body {
     background-color: #E6E1C9;
+    padding: 0;
 }
 
 #nav {
     color: black;
     text-transform: uppercase;
-    padding: 1.5rem 0rem 0rem 1.5rem;
+    padding: 1.5rem 0rem 1.5rem 0rem;
+    width: 100vw;
 }
 
 .nav-link {
@@ -22,6 +24,41 @@
 #nav-right > .nav-link {
     font-size: .75rem;
     font-weight: 500;
-    padding: 0rem 5rem 0rem 5rem;
+    padding: 0rem 2.5rem 0rem 2.5rem;
     letter-spacing: 4px;
+    white-space: nowrap;
+}
+
+@media (min-width: 0px) {
+    #nav-right > .nav-link {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) {
+    #nav-right > .nav-link {
+        padding: 0rem 0.75rem 0rem 0.75rem;
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    #nav-right > .nav-link {
+        padding: 0rem 2rem 0rem 2rem;
+        display: block;
+    }
+}
+
+@media (min-width: 992px) {
+    #nav-right > .nav-link {
+        padding: 0rem 3rem 0rem 3rem;
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    #nav-right > .nav-link {
+        padding: 0rem 4.5rem 0rem 4.5rem;
+        display: block;
+    }
 }
