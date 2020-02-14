@@ -8,6 +8,7 @@
     text-transform: uppercase;
     padding: 1.5rem 0rem 1.5rem 0rem;
     width: 100vw;
+    max-height: 25vh;
 }
 
 .nav-link {
@@ -19,14 +20,26 @@
     font-weight: 700;
     font-size: 1.75rem;
     letter-spacing: -2px;
+    max-height: 58px;
+    transition: ease .75s;
+}
+
+#nav-left:hover {
+    font-size: 2rem;
+    transition: ease .75s;
 }
 
 #nav-right > .nav-link {
     font-size: .75rem;
     font-weight: 500;
-    padding: 0rem 2.5rem 0rem 2.5rem;
     letter-spacing: 4px;
     white-space: nowrap;
+}
+
+
+#nav-right > .nav-link:hover {
+    color: white;
+    transition: ease 0.5s;
 }
 
 @media (min-width: 0px) {
@@ -61,4 +74,30 @@
         padding: 0rem 4.5rem 0rem 4.5rem;
         display: block;
     }
+}
+
+
+#myCarousel {
+    min-height: 75vh;
+    max-height: 75vh;
+}
+
+.dot {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-color: gold;
+    display: inline-block;
+    margin: 4rem;
+    position: relative;
+}
+
+#lebron {
+    position: absolute;
+    z-index: 999;
+    left: 50%;
+}
+
+.carousel-indicators > li {
+    background-color: black;
 }
