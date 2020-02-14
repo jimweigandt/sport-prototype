@@ -94,10 +94,19 @@
 
 #lebron {
     position: absolute;
-    z-index: 999;
+    /* z-index: 1; */
     left: 50%;
 }
 
 .carousel-indicators > li {
     background-color: black;
+}
+
+#lebron {
+    width: 1000px;
+    height: auto;
+    background: none;
+    z-index: 999;
+    left: 700px;
+    top: 50px;
 }
