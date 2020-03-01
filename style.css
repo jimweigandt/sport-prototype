@@ -132,15 +132,16 @@
 #lebron {
     position: absolute;
     /* z-index: 1; */
-    left: 50%;
+    /* left: 50%; */
     justify-content: center;
     align-items: center;
     width: 1000px;
     height: auto;
     background: none;
     /* z-index: 999; */
-    left: 700px;
-    top: 50px;
+    /* left: 700px;
+    top: 50px; */
+    display: inline-block;
 }
 
 .carousel-indicators > li {
